@@ -11,13 +11,17 @@
 }
 .body1{
     margin-top: 14%;
+    max-width: 100vw;
+    min-width: 50vw;
 }
 .logo{
     margin: auto;
     width: 31%;
 }
 .search{
-    margin-left:310px ;
+    position: relative;
+    margin-top: 14px;
+    margin-left:31% ;
     display: flex;
     flex-wrap: nowrap;
     border: 1px solid #dfe1e5;
@@ -48,17 +52,29 @@
     height: 27px;
 }
 .button{
+    position: relative;
     margin-top: 31px;
-    margin-left: 310px;
+    margin-left: 28%;
+    margin-bottom: 6%;
     //border: 1px solid black;
 }
 .googlesearch{
+    position: absolute;
+    left: 3%;
     display: inline-block;
-    //margin-top: 140px;
+    background-color: #f2f2f2;
+    width: 131px;
+    height: 31px;
     margin-left: 4em;
     margin-right:4em;
-    //border: 1px solid black;
+    text-align: center;
+    padding-top: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color:#5F6368;
+    border-radius: 4px;
 }
+
 
 
 
@@ -69,15 +85,28 @@
 
 
 .googlesearch1{
+    position: absolute;
+    right: 55%;
     display: inline-block;
-    //margin-top: ;
-    //margin-left: 310px;
-    //border: 1px solid black;
+    background-color: #f2f2f2;
+    width: 131px;
+    height: 31px;
+    text-align: center;
+    padding-top: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color:#5F6368;
+    border-radius: 4px;
 }
 .nihon{
-    display: flex;
-    flex-wrap: nowrap;
-    margin-top: 14px;
-    margin-left: 410px;
+    position: relative;
+    display: inline-block;
+    margin-top: 31px;
+    margin-left: 41%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    //border: solid black;
 }
-
+input:focus{
+    outline: none;
+}
