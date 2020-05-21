@@ -1,32 +1,66 @@
-.search{
-    width: 31px;
-}
 .ull{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+    border: solid black;
+    padding: 10px;
+    width: 98%;
+}
+a:link{
+    text-decoration: none;
+    color: rgba(0,0,0,0.64);
+    font-size: 13px;
+}
+a:hover{
+    text-decoration-line: underline;
+
 }
 .neg{
-    display: inline;
+    display: inline-block;
+    margin-left: 10px;
+}
+.negin{
+    float: right;
+    display: inline-block;
+    margin-right: 0;
+    margin-left: auto;
+   // border: solid black;
+}
+.neg1{
+    margin-right: 10px;
+    display: inline-block;
+    
 }
 .body1{
-    margin-top: 14%;
-    max-width: 100vw;
-    min-width: 50vw;
+    margin: auto;
+    width: 100%;
+}
+.logoin{
+    padding-top: 100px;
+    height: 131px;
+    width: 100%;
+    border: 1px solid black;
 }
 .logo{
-    margin: auto;
-    width: 31%;
+    //margin-top: 100px;
+    //margin-left: 38%;
+    margin:0 auto;
+    //left: 50vw;
+    width: 310px;
+}
+.searchin{
+    width: 100%;
+    padding-top: 10px;
+    //text-align: center;
+    //border: solid black;
+    
 }
 .search{
-    position: relative;
-    margin-top: 14px;
-    margin-left:31% ;
+    //margin-top: 14px;
+    margin: 0 auto;
+    //margin-left:31%;
     display: flex;
     flex-wrap: nowrap;
     border: 1px solid #dfe1e5;
     border-radius: 24px;
-    width: 410px;
+    width: 500px;
     height: 31px;
 }
 
@@ -51,22 +85,37 @@
     width:310px;
     height: 27px;
 }
+.buttonin{
+    padding-top: 31px;
+}
 .button{
-    position: relative;
-    margin-top: 31px;
-    margin-left: 28%;
-    margin-bottom: 6%;
-    //border: 1px solid black;
+    width: 301px;
+    margin: 0 auto;
+    border: 1px solid black;
+    display: flex;
 }
 .googlesearch{
-    position: absolute;
-    left: 3%;
-    display: inline-block;
+    
     background-color: #f2f2f2;
     width: 131px;
     height: 31px;
-    margin-left: 4em;
-    margin-right:4em;
+    padding-top: 10px;
+    margin-right: 31px;
+
+
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color:#5F6368;
+    border-radius: 4px;
+}
+.googlesearch1{
+    background-color: #f2f2f2;
+    width: 131px;
+    height: 31px;
+
+
+
     text-align: center;
     padding-top: 12px;
     font-family: Arial, Helvetica, sans-serif;
@@ -74,38 +123,16 @@
     color:#5F6368;
     border-radius: 4px;
 }
-
-
-
-
-
-
-
-
-
-
-.googlesearch1{
-    position: absolute;
-    right: 55%;
-    display: inline-block;
-    background-color: #f2f2f2;
-    width: 131px;
-    height: 31px;
-    text-align: center;
-    padding-top: 12px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 14px;
-    color:#5F6368;
-    border-radius: 4px;
+.nihonin{
+    width: 100%;
+    padding-top: 31px;
 }
 .nihon{
-    position: relative;
-    display: inline-block;
-    margin-top: 31px;
-    margin-left: 41%;
+    margin: 0 auto;
+    width: 151px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: small;
-    //border: solid black;
+    border: solid black;
 }
 input:focus{
     outline: none;
