@@ -1,6 +1,15 @@
 .ull{
     width: 100%;
-    height: 131px;
+    height: 70px;
+    border: solid black;
+    min-width: 1000px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+.ull1{
+    width: 100%;
+    height: 31px;
     border: solid black;
     min-width: 1000px;
 }
@@ -35,11 +44,9 @@
     outline: none;
 }
 .buttons{
-    margin-top: 17px;
     margin-left: 155px;
     width: 555px;
     height: 31px;
-
     border: solid black;
 }
 .button{
@@ -100,6 +107,26 @@
     height: 20px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
+}
+.meun{
+    width: 31px;
+    height: 20px;
+    border: solid black;
+}
+.why{
+    display: none;
+    border: solid black;
+    width: 100px;
+    height: 31px;
+    position: absolute;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:white;
+    text-align: center;
+    padding-top: 10px;
+}
+.meun:focus .why{
+    display: block;
 }
 .contain{
     text-align: left;
