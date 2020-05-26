@@ -83,7 +83,6 @@
 }
 .center{
     border: solid black;
-    height: 1400px;
     width: 604px;
     position: absolute;
     left: 155px;
@@ -151,7 +150,6 @@
 }
 .res{
     border: solid black;
-    height: 117px;
     padding: 15px;
 }
 .pas{
